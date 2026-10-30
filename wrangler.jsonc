@@ -1,0 +1,21 @@
+
+{
+  "name": "coinbase-cloud-bot",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-30",
+  "workers_dev": true,
+  "keep_vars": true,
+
+  "kv_namespaces": [
+    {
+      "binding": "PAPER_KV",
+      "id": "e14074c65d7a4ee48367de8c07bd06e0"
+    }
+  ],
+
+  "triggers": {
+    "crons": [
+      "*/15 * * * *"
+    ]
+  }
+}
